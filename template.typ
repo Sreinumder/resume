@@ -125,7 +125,7 @@
 
 #let skill_item(
   category: "Skills",
-  skills: "Balling, Yoga, Valorant",
+  skills: "Basic-Japanese, typing-with-altrnative-keyboard-layout-(graphite)",
 ) = {
   set block(above: 0.7em)
   set text(size: 0.91em)
