@@ -12,6 +12,34 @@
 )
 
 #resume_heading("Projects")
+
+#project_item(
+  name: "Unexpected Abugida Keyboard",
+  skills: "Android Development with java",
+  projectUrl: "https://github.com/Sreinumder/UnexpectedAbugidaKeyboard",
+  urlType: "Github",
+  [An experimentation on typing the devanagari script or even any other abugida scripts in new way.],
+  [Gesture based input keyboard for android.],
+)
+
+#project_item(
+  name: "SiteX: Predictive Site Selection System for Cafes",
+  skills: "Python, FastAPI, React",
+  projectUrl: "https://github.com/Subekshyeah/SiteX",
+  urlType: "Github",
+  [Makes an analysis of a point in map, and predicts for accessibility, POI score.],
+  [Data scrapped through Google map and Open Street Map.],
+)
+
+#project_item(
+  name: "Tamang Dictionary",
+  skills: "html, css, js",
+  projectUrl: "https://github.com/Sreinumder/tamang-dictionary",
+  urlType: "Github",
+  [A very basic dictionary. That language learners may find useful.],
+  [Data were scrapped from a site using python scripts.],
+)
+
 #project_item(
   name: "Futsala: Futsal Reservation System",
   skills: "React, FastAPI",
@@ -23,6 +51,7 @@
   [Auth & Roles: Implemented JWT authentication and managed user roles.],
   [Database Management: Designed and maintained a SQLite database for project data.],
 )
+
 #project_item(
   name: "Cppchess: Basic CLI/TUI Chess",
   skills: "C++",
@@ -33,6 +62,7 @@
   [Features move logging, undo/redo, and a TUI for gameplay.],
   [Designed as a Quick college side project, with plans for future enhancements]
 )
+
 #project_item(
   name: "Movie Ticket Booking",
   skills: "Django",
