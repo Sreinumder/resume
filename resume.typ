@@ -155,9 +155,10 @@
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Git, Docker, VS Code, Visual Studio, Neovim"
+  skills: "Git, Docker, VS Code, Visual Studio, Neovim, Github Actions"
 )
 #skill_item(
   category: "Libraries",
   skills: "Pandas, NumPy, Matplotlib, Django"
 )
+
