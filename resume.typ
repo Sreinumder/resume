@@ -162,4 +162,3 @@
   skills: "Pandas, NumPy, Matplotlib, Django"
 )
 
-
