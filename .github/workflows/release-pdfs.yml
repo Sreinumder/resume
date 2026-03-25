@@ -1,5 +1,8 @@
 name: Compile and Release PDFs
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
