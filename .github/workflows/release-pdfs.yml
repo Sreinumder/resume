@@ -32,13 +32,14 @@ jobs:
               continue
             fi
             typst compile "$file" "${file%.typ}.pdf"
+            typst compile "$file" "${file%.typ}.png"
           done
 
       
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          files: '*.pdf'
+          files: '*.pdf *.png'
           tag_name: v${{ github.run_number }}
           draft: false
           prerelease: false
