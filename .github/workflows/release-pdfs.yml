@@ -7,7 +7,7 @@ on:
   push:
     branches:
       - main
-    # Optionally, only trigger when Typst files change
+
     paths:
       - '**.typ'
 
@@ -27,13 +27,21 @@ jobs:
       - name: Compile Typst files
         run: |
           for file in *.typ; do
+            # skip Template.typ
+            if [ "$file" = "template.typ" ]; then
+              continue
+            fi
             typst compile "$file" "${file%.typ}.pdf"
+            typst compile "$file" --format png "${file%.typ}.png"
           done
+
       
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          files: '*.pdf'
+          files: |
+            *.pdf
+            *.png'
           tag_name: v${{ github.run_number }}
           draft: false
           prerelease: false
