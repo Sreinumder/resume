@@ -18,6 +18,16 @@
 #resume_heading("Projects")
 
 #project_item(
+  name: "SiteX: Predictive Site Selection System for Cafes",
+  skills: "Python, FastAPI, React",
+  projectUrl: "https://github.com/Subekshyeah/SiteX",
+  urlType: "Github",
+  [Analyzes geographic locations and predicts accessibility and POI score.],
+  [Data collected through Google Maps and OpenStreetMap APIs.],
+  [Developed backend APIs and integrated map-based frontend interface.],
+)
+
+#project_item(
   name: "Contact Manager",
   skills: "C#, ASP.NET Core Web API, React, Vite, MariaDB/MySQL",
   projectUrl: "https://github.com/Sreinumder/Contact-Manager",
@@ -37,16 +47,6 @@
   [Developed backend APIs for courts, users, and reservations using FastAPI.],
   [Implemented JWT authentication and role-based access control.],
   [Designed and managed SQLite database for application data.],
-)
-
-#project_item(
-  name: "SiteX: Predictive Site Selection System for Cafes",
-  skills: "Python, FastAPI, React",
-  projectUrl: "https://github.com/Subekshyeah/SiteX",
-  urlType: "Github",
-  [Analyzes geographic locations and predicts accessibility and POI score.],
-  [Data collected through Google Maps and OpenStreetMap APIs.],
-  [Developed backend APIs and integrated map-based frontend interface.],
 )
 
 #project_item(

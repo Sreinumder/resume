@@ -1,0 +1,38 @@
+name: Compile and Release PDFs
+
+on:
+  push:
+    branches:
+      - main
+    # Optionally, only trigger when Typst files change
+    paths:
+      - '**.typ'
+
+jobs:
+  compile-and-release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install Typst
+        run: |
+          curl -L https://github.com/typst/typst/releases/download/v0.11.0/typst-x86_64-unknown-linux-musl.tar.xz -o typst.tar.xz
+          tar -xf typst.tar.xz
+          sudo mv typst-*/typst /usr/local/bin/
+      
+      - name: Compile Typst files
+        run: |
+          for file in *.typ; do
+            typst compile "$file" "${file%.typ}.pdf"
+          done
+      
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: '*.pdf'
+          tag_name: v${{ github.run_number }}
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
