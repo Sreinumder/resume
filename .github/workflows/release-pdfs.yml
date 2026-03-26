@@ -32,7 +32,7 @@ jobs:
               continue
             fi
             typst compile "$file" "${file%.typ}.pdf"
-            typst compile "$file" --format png "${file%.typ}.png"
+            typst compile "$file" --format png "${file%.typ}-%{n}.png"
           done
 
       
