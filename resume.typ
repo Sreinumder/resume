@@ -1,4 +1,4 @@
-#import "template.typ": resume, header, resume_heading, edu_item, project_item, skill_item, training_item
+#import "template.typ": edu_item, header, project_item, resume, resume_heading, skill_item, training_item
 
 #show: resume
 
@@ -43,11 +43,11 @@
 #project_item(
   name: "Futsala: Futsal Reservation System",
   skills: "React, FastAPI",
-  projectUrl: "https://www.github.com/sujalcha7/futsala",
+  projectUrl: "https://github.com/sujalcha7/futsala",
   urlType: "Github",
   [A full-stack web application designed for managing futsal court reservations, user roles, and administrative tasks.],
   [Backend (FastAPI, SQLA): Developed secure APIs for courts, users, and reservations.],
-  [Frontend (React.js): Created an interactive UI with reservation flow and payment integration.],
+  [Frontend (React): Created an interactive UI with reservation flow and payment integration.],
   [Auth & Roles: Implemented JWT authentication and managed user roles.],
   [Database Management: Designed and maintained a SQLite database for project data.],
 )
@@ -55,12 +55,12 @@
 #project_item(
   name: "Cppchess: Basic CLI/TUI Chess",
   skills: "C++",
-  projectUrl: "https://www.github.com/Sreinumder/cppchess",
+  projectUrl: "https://github.com/Sreinumder/cppchess",
   urlType: "Github",
   [A console-based, two-player chess game implemented in C++ with a text-based user interface (TUI).],
   [Implements a fully functional chess game supporting standard rules (e.g., castling, en passant, pawn promotion) ],
   [Features move logging, undo/redo, and a TUI for gameplay.],
-  [Designed as a Quick college side project, with plans for future enhancements]
+  [Designed as a Quick college side project, with plans for future enhancements],
 )
 
 #project_item(
@@ -79,26 +79,26 @@
   name: "Khwopa Engineering College",
   degree: "Bachelor in Computer Engineering",
   location: "Libali, Bhaktapur, Nepal",
-  date: "Apr. 2022 - present"
+  date: "Apr. 2022 - present",
 )
 #edu_item(
   name: "Khwopa Secondary School",
   degree: "+2 Science",
   location: "Dekocha, Bhaktapur, Nepal",
-  date: "Jun 2019 - Aug 2021"
+  date: "Jun 2019 - Aug 2021",
 )
 #edu_item(
   name: "Wiseland Secondary School",
   degree: "SEE",
   location: "Jagati, Bhaktapur, Nepal",
-  date: "Apr 2006 - Mar 2019"
+  date: "Apr 2006 - Mar 2019",
 )
 
 #resume_heading[Training]
 #training_item(
   name: "AI Basics",
   institution: "Hackacdemia",
-  date: "2024"
+  date: "2024",
 )
 
 // #resume_heading[Experience]
@@ -124,18 +124,18 @@
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, Lua"
+  skills: "Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, Lua",
 )
 #skill_item(
   category: "Frameworks",
-  skills: "React, Node.js, Flask, WordPress, FastAPI"
+  skills: "React, Node.js, Flask, WordPress, FastAPI",
 )
 #skill_item(
   category: "Developer Tools",
-  skills: "Git, Docker, VS Code, Visual Studio, Neovim, Github Actions"
+  skills: "Git, Docker, VS Code, Visual Studio, Neovim, Github Actions",
 )
 #skill_item(
   category: "Libraries",
-  skills: "Pandas, NumPy, Matplotlib, Django"
+  skills: "Pandas, NumPy, Matplotlib, Django",
 )
 

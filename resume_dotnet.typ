@@ -7,7 +7,7 @@
   phone: "+977 9868156515",
   email: "rojgosai02@gmail.com",
   linkedin: "roj-gosai-311422350",
-  github: "github.com/Sreinumder",
+  github: "Sreinumder",
 )
 
 // #resume_heading("Profile")
@@ -41,12 +41,13 @@
 #project_item(
   name: "Futsala: Futsal Reservation System",
   skills: "React, FastAPI, SQLA",
-  projectUrl: "https://www.github.com/sujalcha7/futsala",
+  projectUrl: "https://github.com/sujalcha7/futsala",
   urlType: "Github",
   [A full-stack web application for managing futsal court reservations and users.],
   [Developed backend APIs for courts, users, and reservations using FastAPI.],
   [Implemented JWT authentication and role-based access control.],
   [Designed and managed SQLite database for application data.],
+  [Handled backend validation, error handling, and API response structuring.],
 )
 
 #project_item(
@@ -62,7 +63,7 @@
 #project_item(
   name: "CppChess: CLI/TUI Chess Game",
   skills: "C++",
-  projectUrl: "https://www.github.com/Sreinumder/cppchess",
+  projectUrl: "https://github.com/Sreinumder/cppchess",
   urlType: "Github",
   [A console-based two-player chess game implemented in C++ with a text-based interface.],
   [Implements standard chess rules including castling, en passant, and pawn promotion.],
