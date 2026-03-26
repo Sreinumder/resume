@@ -8,7 +8,7 @@
   email: "rojgosai02@gmail.com",
   linkedin: "roj-gosai-311422350",
   github: "Sreinumder",
-  // site: "Sreinumder",
+  portfolio: "https://portfolio-2rb9.vercel.app",
 )
 
 #resume_heading("Projects")
