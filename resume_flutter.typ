@@ -36,14 +36,14 @@ applications using React.js and modern backend frameworks such as FastAPI and Dj
   [Data scrapped through Google map and Open Street Map.],
 )
 
-#project_item(
-  name: "Tamang Dictionary",
-  skills: "html, css, js",
-  projectUrl: "https://github.com/Sreinumder/tamang-dictionary",
-  urlType: "Github",
-  [A very basic dictionary. That language learners may find useful.],
-  [Data were scrapped from a site using python scripts.],
-)
+// #project_item(
+//   name: "Tamang Dictionary",
+//   skills: "html, css, js",
+//   projectUrl: "https://github.com/Sreinumder/tamang-dictionary",
+//   urlType: "Github",
+//   [A very basic dictionary. That language learners may find useful.],
+//   [Data were scrapped from a site using python scripts.],
+// )
 
 #project_item(
   name: "Futsala: Futsal Reservation System",

@@ -11,21 +11,18 @@
   portfolio: "https://portfolio-2rb9.vercel.app",
 )
 
-#resume_heading("Profile")
-
-Computer Engineering student with hands-on experience building full-stack web
-applications using React.js and modern backend frameworks such as FastAPI and Django. Skilled in designing and developing RESTful APIs, implementing authentication systems, and working with relational databases including PostgreSQL and SQLite. Strong understanding of database design, queries, and application architecture. Passionate about building scalable systems and eager to contribute as a Full Stack Developer in a collaborative, fast-paced environment.
-
 #resume_heading("Projects")
 
-// #project_item(
-//   name: "Unexpected Abugida Keyboard",
-//   skills: "Android Development with java",
-//   projectUrl: "https://github.com/Sreinumder/UnexpectedAbugidaKeyboard",
-//   urlType: "Github",
-//   [An experimentation on typing the devanagari script or even any other abugida scripts in new way.],
-//   [Gesture based input keyboard for android.],
-// )
+#project_item(
+  name: "Cppchess: Basic CLI/TUI Chess",
+  skills: "C++",
+  projectUrl: "https://github.com/Sreinumder/cppchess",
+  urlType: "Github",
+  [A console-based, two-player chess game implemented in C++ with a text-based user interface (TUI).],
+  [Implements a fully functional chess game supporting standard rules (e.g., castling, en passant, pawn promotion) ],
+  [Features move logging, undo/redo, and a TUI for gameplay.],
+  [Designed as a Quick college side project, with plans for future enhancements],
+)
 
 #project_item(
   name: "SiteX: Predictive Site Selection System for Cafes",
@@ -55,17 +52,6 @@ applications using React.js and modern backend frameworks such as FastAPI and Dj
   [Frontend (React): Created an interactive UI with reservation flow and payment integration.],
   [Auth & Roles: Implemented JWT authentication and managed user roles.],
   [Database Management: Designed and maintained a SQLite database for project data.],
-)
-
-#project_item(
-  name: "Cppchess: Basic CLI/TUI Chess",
-  skills: "C++",
-  projectUrl: "https://github.com/Sreinumder/cppchess",
-  urlType: "Github",
-  [A console-based, two-player chess game implemented in C++ with a text-based user interface (TUI).],
-  [Implements a fully functional chess game supporting standard rules (e.g., castling, en passant, pawn promotion) ],
-  [Features move logging, undo/redo, and a TUI for gameplay.],
-  [Designed as a Quick college side project, with plans for future enhancements],
 )
 
 #project_item(
@@ -105,26 +91,6 @@ applications using React.js and modern backend frameworks such as FastAPI and Dj
   institution: "Hackacdemia",
   date: "2024",
 )
-
-// #resume_heading[Experience]
-// #exp_item(
-//   role: "Undergraduate Research Assistant",
-//   name: "Texas A&M University",
-//   location: "College Station, TX",
-//   date: "June 2020 - Present",
-//   [Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems],
-//   [Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data],
-//   [Explored ways to visualize GitHub collaboration in a classroom setting]
-// )
-// #exp_item(
-//   role: "Information Technology Support Specialist",
-//   name: "Southwestern University",
-//   location: "Georgetown, TX",
-//   date: "Sep. 2018 - Present",
-//   [Communicate with managers to set up campus computers used on campus],
-//   [Assess and troubleshoot computer problems brought by students, faculty and staff],
-//   [Maintain upkeep of computers, classroom equipment, and 200 printers across campus]
-// )
 
 #resume_heading("Technical Skills")
 #skill_item(
