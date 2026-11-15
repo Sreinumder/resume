@@ -13,19 +13,10 @@
 
 #resume_heading("Profile")
 
-Computer Engineering student with hands-on experience building full-stack web
-applications using React.js and modern backend frameworks such as FastAPI and Django. Skilled in designing and developing RESTful APIs, implementing authentication systems, and working with relational databases including PostgreSQL and SQLite. Strong understanding of database design, queries, and application architecture. Passionate about building scalable systems and eager to contribute as a Full Stack Developer in a collaborative, fast-paced environment.
+Computer Engineering graduate with hands-on experience building full-stack web
+applications using React.js and modern backend frameworks such as FastAPI and Django. Skilled in designing and developing RESTful APIs, implementing authentication systems, and working with relational databases including SQLite. Strong understanding of database design, queries, and application architecture. Passionate about building scalable systems and eager to contribute as a Full Stack Developer in a collaborative, fast-paced environment.
 
 #resume_heading("Projects")
-
-// #project_item(
-//   name: "Unexpected Abugida Keyboard",
-//   skills: "Android Development with java",
-//   projectUrl: "https://github.com/Sreinumder/UnexpectedAbugidaKeyboard",
-//   urlType: "Github",
-//   [An experimentation on typing the devanagari script or even any other abugida scripts in new way.],
-//   [Gesture based input keyboard for android.],
-// )
 
 #project_item(
   name: "SiteX: Predictive Site Selection System for Cafes",
@@ -84,7 +75,7 @@ applications using React.js and modern backend frameworks such as FastAPI and Dj
   name: "Khwopa Engineering College",
   degree: "Bachelor in Computer Engineering",
   location: "Libali, Bhaktapur, Nepal",
-  date: "Apr. 2022 - present",
+  date: "Apr. 2022 - Jul. 2026",
 )
 #edu_item(
   name: "Khwopa Secondary School",
@@ -143,5 +134,3 @@ applications using React.js and modern backend frameworks such as FastAPI and Dj
   category: "Libraries",
   skills: "Pandas, NumPy, Matplotlib, Django",
 )
-
-
